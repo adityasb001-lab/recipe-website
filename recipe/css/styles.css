@@ -4,7 +4,6 @@ body {
     background: #f4f4f4;
 }
 
-/* Header */
 header {
     background: #ff5722;
     color: white;
@@ -12,7 +11,7 @@ header {
     text-align: center;
 }
 
-/* Navbar */
+
 nav a {
     color: white;
     margin: 10px;
@@ -23,13 +22,13 @@ nav a:hover {
     color: yellow;
 }
 
-/* Intro */
+
 .intro {
     text-align: center;
     padding: 20px;
 }
 
-/* Recipe Cards */
+
 .recipes {
     display: flex;
     justify-content: center;
@@ -50,7 +49,7 @@ nav a:hover {
     transform: scale(1.05);
 }
 
-/* Recipe Page */
+
 .recipe {
     padding: 20px;
 }
@@ -59,7 +58,7 @@ nav a:hover {
     width: 300px;
 }
 
-/* Footer */
+
 footer {
     background: #333;
     color: white;
@@ -67,7 +66,7 @@ footer {
     padding: 10px;
 }
 
-/* Responsive */
+
 @media (max-width: 600px) {
     .recipes {
         flex-direction: column;
